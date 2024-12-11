@@ -18,3 +18,5 @@ const $error = (err) => console.error(err);
 const $debug = (deb) => console.debug(deb);
 const $info = (info) => console.info(info);
 const $warn = (warning) => console.warn(warning);
+
+module.exports = { $whyUs, $whyNotJquery, $, $all, $id, $class, $tag, $style, $text, $htmtl, $for, $log, $error, $debug, $info, $warn };
